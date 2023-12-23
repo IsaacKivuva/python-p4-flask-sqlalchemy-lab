@@ -30,7 +30,7 @@ with app.app_context():
         e = Enclosure(environment=rc(environments), open_to_visitors=rc([True, False]))
         enclosures.append(e)
 
-    db.session.add_all(enclosures)
+    db.session.add_all(enclosures) 
 
     animals = []
     species = ['Lion', 'Tiger', 'Bear', 'Hippo', 'Rhino', 'Elephant', 'Ostrich',

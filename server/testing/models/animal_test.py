@@ -1,7 +1,7 @@
 from app import app
 from server.models import db, Animal
 
-class TestAnimal:
+class TestAnimal: 
     '''Animal model in models.py'''
 
     def test_can_be_instantiated(self):

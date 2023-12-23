@@ -4,7 +4,7 @@ import re
 from app import app, db
 from server.models import Animal, Enclosure, Zookeeper
 
-class TestApp:
+class TestApp: 
     '''Flask application in app.py'''
 
     with app.app_context():
